@@ -2,7 +2,7 @@ frontend:
   replicaCount: 2
   image:
     repository: chandranavinn/cm2-frontend
-    tag: latest
+    tag: v2
     pullPolicy: IfNotPresent
   service:
     port: 8000
@@ -11,7 +11,7 @@ backend:
   replicaCount: 2
   image:
     repository: chandranavinn/cm2-backend
-    tag: latest
+    tag: v2
     pullPolicy: IfNotPresent
   service:
     port: 8000
