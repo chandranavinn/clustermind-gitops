@@ -2,7 +2,7 @@ frontend:
   replicaCount: 2
   image:
     repository: chandranavinn/cm2-frontend
-    tag: fc031db858d73916c6fab5790651319224074aad
+    tag: 99444f8eb5f6ccb59e63051ed2ddd6d5aa66d403
     pullPolicy: IfNotPresent
   service:
     port: 8000
@@ -11,7 +11,7 @@ backend:
   replicaCount: 2
   image:
     repository: chandranavinn/cm2-backend
-    tag: fc031db858d73916c6fab5790651319224074aad
+    tag: 99444f8eb5f6ccb59e63051ed2ddd6d5aa66d403
     pullPolicy: IfNotPresent
   service:
     port: 8000
